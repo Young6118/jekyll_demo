@@ -9,10 +9,11 @@ body {
 
 .title {
     cursor: pointer;
+    color: lightgreen;
 }
 
 li.title:hover {
-    background-color: #eee;
+    background-color: #DEEAC3;
 }
 
 .panel {
@@ -21,11 +22,11 @@ li.title:hover {
 
 .panel-default > .panel-heading {
 	background-image: none;
-	background-color: #fff;
+	background-color: #DEEAC3;
 }
 
 .navbar-default {
 	background-image: none;
-	background-color: #fff;
+	background-color: #DEEAC3;
   box-shadow: none;
 }
