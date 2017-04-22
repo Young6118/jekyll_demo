@@ -1,5 +1,6 @@
 ﻿---
 title: Python 安装 以及 pip 包安装 date: 2017-04-16 18:40
+layout: default
 categories: "python"
 tags: python
 ---

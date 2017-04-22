@@ -1,5 +1,6 @@
 ---
 title: https #文章標題
+layout: default
 date: 2016-11-15 #文章生成時間
 categories: "网络" #文章分類目錄 可以省略
 tags: https http #文章標籤 可以省略

@@ -1,5 +1,6 @@
 ---
 title: 三观更新 #文章標題
+layout: default
 date: 2016-05-14 20:41 #文章生成時間
 categories: "日常生活" #文章分類目錄 可以省略
 tags: 生活 #文章標籤 可以省略

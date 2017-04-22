@@ -1,5 +1,6 @@
 ---
 title: 《费曼学习法》 读书笔记 #文章標題
+layout: default
 date: 2016-12-9 #文章生成時間
 categories: "读书笔记" #文章分類目錄 可以省略
 tags: 读书 #文章標籤 可以省略

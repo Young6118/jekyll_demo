@@ -1,6 +1,7 @@
 ---
 title: 《一万小时天才》 读书笔记 #文章標題
 date: 2016-12-5 #文章生成時間
+layout: default
 categories: "读书笔记" #文章分類目錄 可以省略
 tags: 读书 #文章標籤 可以省略
 description: #你對本頁的描述 可以省略

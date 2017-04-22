@@ -1,5 +1,6 @@
 ---
 title: react
+layout: default
 date: 2017-04-06 19:41:06
 tags: react,学习笔记
 categories: react

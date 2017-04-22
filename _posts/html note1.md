@@ -1,5 +1,6 @@
 ---
 title: html 1 #文章標題
+layout: default
 date: 2016-11-19 #文章生成時間
 categories: "html" #文章分類目錄 可以省略
 tags: html 入门 #文章標籤 可以省略

@@ -1,6 +1,7 @@
 ---
 title: linux 文件编码 #文章標題
 date: 2016-11-07 #文章生成時間
+layout: default
 categories: "linux" #文章分類目錄 可以省略
 tags: linux 入门 编码 #文章標籤 可以省略
 description: #你對本頁的描述 可以省略
