@@ -38,8 +38,8 @@ title: 新青柚
                 <ul class="list-group">
 					{% for post in site.posts %}
 					<li class="list-group-item title">
-                                                            <p style="text-align: center;">{{ post.date | date_to_string }} </p>
-                                                            <a href="{{ site.baseurl }}{{ post.url }}" style="text-align: center;">{{ post.title }}</a>
+                                                            <p>{{ post.date | date_to_string }} </p>
+                                                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                                                     </li>
 					{% endfor %}
 				</ul>
