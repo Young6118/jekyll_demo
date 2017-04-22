@@ -10,7 +10,7 @@ title: 新青柚
 	<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.js"></script>
 </head>
  <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
- 	<div class="container-fluid">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -32,11 +32,11 @@ title: 新青柚
     </div>
 </nav>
 
-<div style="margin: 5% 10% 2% 10%">
+<div style="margin: 9% 10% 2% 10%">
     <table style="width: 100%">
     <p>最新文章</p>
         <tr>
-            <td width="70%">
+            <td width="60%">
                 <ul class="list-group">
 					{% for post in site.posts %}
 					<li class="list-group-item title">{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
