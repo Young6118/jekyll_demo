@@ -14,8 +14,8 @@ body {
 }
 
 li.title:hover {
-    background-color: #6ef2ab;
-    color: black;
+    background-color: #ced0ba;
+    color: #7a906a;
 }
 
 .panel {
@@ -26,7 +26,9 @@ li.title:hover {
 	background-image: none;
 	background-color: #DEEAC3;
 }
-
+li {
+    background: #DCE5C4;
+}
 .navbar-default {
 	background-image: none;
 	background-color: #DEEAC3;
