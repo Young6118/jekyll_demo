@@ -1,6 +1,7 @@
 body {
     font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
     font-size: 18px;
+    background: #d6e2ba;
 }
 
 .title a {
@@ -9,11 +10,12 @@ body {
 
 .title {
     cursor: pointer;
-    color: lightgreen;
+    color: #27256f;
 }
 
 li.title:hover {
-    background-color: #DEEAC3;
+    background-color: #6ef2ab;
+    color: black;
 }
 
 .panel {
@@ -29,4 +31,7 @@ li.title:hover {
 	background-image: none;
 	background-color: #DEEAC3;
   box-shadow: none;
+}
+a {
+    color: #214b6e;
 }
