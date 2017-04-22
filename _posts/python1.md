@@ -1,0 +1,75 @@
+﻿---
+title: Python 安装 以及 pip 包安装 date: 2017-04-16 18:40
+categories: "python"
+tags: python
+---
+
+## Python 安装 以及 pip 包安装
+
+### 一、win10 环境下安装 python 2.7.x
+
+#### ** 1. ** 下载 python
+
+win10 64 位环境 其他类似
+
+``` https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi ```
+
+链接打不开转 2
+
+
+ #### **2.**  备梯子  
+ > Lantern
+ * 参 见
+``` http://www.bcoder.cn/12817.html ```
+
+ > Private Tunnel
+
+ #### **3.**  安装
+
+ 双击安装就好
+
+#### **4.**  修改环境变量   
+
+ 桌面我的电脑右键属性 > 高级系统设置 > 环境变量 > 用户变量中的 PATH
+
+ 添加
+
+ ``` ;你的 python 安装路径;你的 python 安装路径\Scripts; ```
+
+到 PATH 中即可
+
+例如：
+
+  ``` ;D:\python2.7;D:\python2.7\Scripts; ```
+
+ ### 二、安装 pip 包
+
+1. pip 类似 npm 、 yum 软件，安装包很方便；
+
+2. 打开链接
+
+``` https://bootstrap.pypa.io/get-pip.py ```
+
+右键下载到指定目录
+
+3. 打开 **cmd** 使用 **cd** 进入该目录 执行命令
+
+
+``` python  get-pip.py  ```    
+
+
+4. 重启 **cmd** 输入
+
+```pip --version```
+
+ 可以看到当前的版本号
+5.
+
+ ```python -m pip install -U pip```
+
+ 给 pip 可以升个级
+6. 安装一个 非常简单的交互式 python 版本管理工具 包测试一下
+
+```pip install pymongo```
+
+ *pymongo 是 MongoDB 的官方 Python 客户端*
