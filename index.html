@@ -36,7 +36,7 @@ title: 新青柚
     <table style="width=100%">
     <p>最新文章</p>
         <tr>
-            <td width="70%">
+            <td width="100%">
                 <ul class="list-group">
 					{% for post in site.posts %}
 					<li class="list-group-item title">{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
