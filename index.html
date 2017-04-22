@@ -37,7 +37,10 @@ title: 新青柚
             <td style="width: 60%">
                 <ul class="list-group">
 					{% for post in site.posts %}
-					<li class="list-group-item title">{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
+					<li class="list-group-item title">
+                                                            <p style="text-align: center;">{{ post.date | date_to_string }} </p>
+                                                            <a href="{{ site.baseurl }}{{ post.url }}" style="text-align: center;">{{ post.title }}</a>
+                                                    </li>
 					{% endfor %}
 				</ul>
   			</td>
