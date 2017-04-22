@@ -30,11 +30,11 @@ title: 新青柚
     </div>
 </nav>
 
-<div style="margin: 5% 10% 2% 10%">
+<div style="margin: 10% 10% 2% 10%">
     <table style="width: 100%">
     <p>最新文章</p>
         <tr>
-            <td width="60%">
+            <td style="width: 60%">
                 <ul class="list-group">
 					{% for post in site.posts %}
 					<li class="list-group-item title">{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
