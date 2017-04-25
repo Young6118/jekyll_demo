@@ -95,7 +95,7 @@ Sec-WebSocket-Accept 是服务器加在浏览器提供的 Sec-WebSocket-Key 后�
 
 ```
 if(window.WebSocket != undefined) {
-// WebSocket 代码
+	// WebSocket 代码
 }
 ```
 
@@ -103,7 +103,7 @@ if(window.WebSocket != undefined) {
 
 ```
 if(window.WebSocket != undefined) {
-var webSocket = new WebSocket('ws://localhost:9000')
+	var webSocket = new WebSocket('ws://localhost:9000')
 }
 ```
 
@@ -122,7 +122,7 @@ WebSocket 的实例对象 connection 有一个 [readyState 属性](https://devel
 webSocket.onopen = wsOpen
 
 var wsOpen = function(event) {
-console.log('Connected to: ' + event.currentTarget.URL)
+	console.log('Connected to: ' + event.currentTarget.URL)
 }
 ```
 
@@ -131,7 +131,7 @@ console.log('Connected to: ' + event.currentTarget.URL)
 webSocket.onclose = wsClsoe
 
 var wsClose = function() {
-console.log("closed")
+	console.log("closed")
 }
 
 webSocket.close()
@@ -149,7 +149,7 @@ message 可以是字符串、ArrayBuffer 或 Blob 对象。
 webSocket.onerror = wsError
 
 var wsError = function(event) {
-console.log("Error: " + event.data)
+	console.log("Error: " + event.data)
 }
 ```
 
