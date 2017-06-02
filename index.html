@@ -32,24 +32,23 @@ title: 新青柚
 
 <div style="margin: 10% 10% 2% 10%">
     <table style="width: 100%">
-    <p>全部文章</p>
-        <tr>
-            <td style="width: 60%">
-                <ul class="list-group">
-					{% for post in site.posts %}
-						<li class="list-group-item title">
-                                                            <p>{{ post.date | date_to_string }}</p>
-                                                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                                                    </li>
-					{% endfor %}
-		</ul>
-  			</td>
+		<p>全部文章</p>
+		<tr>
+		    <td style="width: 60%">
+		        <ul class="list-group">
+				{% for post in site.posts %}
+					<li class="list-group-item title">
+	                <p>{{ post.date | date_to_string }}</p>
+	                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	                </li>
+				{% endfor %}
+				</ul>
+				</td>
 		</tr>
     </table>
 </div>
-	<footer class="footer navbar-fixed-bottom ">
-		<div class="container">
-			© 2017 Young. All rights reserved.
-		</div>
-	</footer>
-
+<footer class="footer navbar-fixed-bottom ">
+	<div class="container">
+		© 2017 Young. All rights reserved.
+	</div>
+</footer>
